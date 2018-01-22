@@ -188,7 +188,7 @@ h1 {
 /* **/
 
 .example-image {
-    max-width: 90%; 
+    max-width: 50%; 
     display:block; 
     height: auto;
 }
