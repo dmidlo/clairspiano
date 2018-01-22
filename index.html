@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Clair's Piano</title>
+        <meta name=description content="A programming piano created by Clair and her dad.">
+        <link rel="stylesheet" type="text/css" href="piano.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="main-inner">
+                <div id="piano">
+                    <h1>Clair's Piano</h1>
+                    <div class="help show" tabindex="1">
+                        <div class="help-inner">
+                            <div id="synth-settings"></div>
+                            <div class="opts">
+                                <p><strong>Controls:</strong></p>
+                                <p>play using home row &amp; above &nbsp; /</p>
+                                <p>change playable keys: “,” &amp; “.” &nbsp; /</p>
+                                <p>shift keyboard: ← &amp; → <span id="shift"></span></p>
+                            </div>
+                            <div class="opts">
+                                <p><strong>Extras:</strong></p>
+                                <p class="toggle-color toggle hold">Color - c &nbsp; /</p>
+                                <p class="toggle-demo toggle">Demo - m &nbsp; /</p>
+                                <p class="toggle-animate toggle">Visual mode - 8 &nbsp; /</p>
+                                <p class="toggle-looper">Looper - 9 &nbsp; /</p>
+                                <p>Help - 0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="loop" tabindex="2">loop</div>
+                </div>
+            </div>
+            <div id="notes">
+            <h2>Notes:</h2>
+            <ol>
+                <li>To write a program for the internet, you need three different types of files.
+                    <ul>
+                        <li>A Markup File (HTML), is used to create objects out of thin air (like a wizard's wand). This HTML file tells the computer to create all of the different boxes you see.  The keys on the keyboard, the box around the keyboard, all of the words, and everything you see are created using a markup file.</li>
+                        <li>A Style file (CSS), is used to color the boxes, to say how tall and wide the boxes are, and what colors and shapes should be used when the keys are pressed.</li>
+                        <li>A 'Do Things File' (JavaScript), is used tell the computer to pay attention to where you click, what keys on the keyboard are pressed, and what to do when things are clicked or pressed.</li>
+                    </ul></li>
+                <li>Sound moves in waves.  Two keys down from 'middle C' is the musical note 'A'.  A's waves vibrate 440 times a second, but every note in the musical alphabet vibrates a different number of times a second.</li>
+                <li>Guitars, like pianos use strings.  And are a great way to actually see how sound vibrates the air. <br />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fHnb3tAg1mk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+
+            </ol>
+        </div>
+        </div>
+        
+        <script src="jquery-1.7.1.min.js"></script>
+        <script src="audio.js"></script>
+        <script src="piano.js"></script>
+    </body>
+</html>
